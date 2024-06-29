@@ -4,7 +4,7 @@
     margin-top: 50px;
 }
 .item img{
-    width: 200px;
+    width: 250px;
 }
 .item p {
     margin: 6px 6px;
@@ -28,4 +28,60 @@
 .item:hover{
     transform: scale(1.05);
     transition: 0.6s;
+}
+@media (max-width:1280px) {
+    .item{
+        width: 140px;
+        font-size: 14px;
+    }
+    .item img{
+        width: 150px;
+        height: 190px;
+    }
+    .item p {
+        font-size: 10px;
+        text-align: start;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+@media (max-width:1024px) {
+    .item{
+        width: 130px;
+    }
+    .item img{
+        width: 130px;
+        height: 170px;
+    }
+    .item p {
+        font-size: 8px;
+    }
+    .item-price-old{
+        font-size: 12px;
+    }
+}
+@media (max-width:800px) {
+    .item{
+        width: 110px;
+    }
+    .item img{
+        width: 110px;
+        height: 140px;
+    }
+    .item-price-old{
+        font-size: 11px;
+    }
+}
+@media (max-width:500px) {
+    .item{
+        width: 80px;
+    }
+    .item img {
+        width: 90px;
+        height: 120px;
+    }
+    .item p {
+        font-size: 6px;
+    }
 }
